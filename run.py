@@ -2,6 +2,7 @@ from app import create_app
 from appmodels.itemModel import ItemModel
 from db import db
 from appmodels.storeModel import StoreModel
+from appmodels.item_tags import ItemsTags
 
 app = create_app()
 with app.app_context():
